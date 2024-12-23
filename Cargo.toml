@@ -46,7 +46,7 @@ rand = { version = "0.7.3", optional = true }
 ckb-mock-tx-types = { version = "0.119.0" }
 ckb-chain-spec = "0.119.0"
 
-sparse-merkle-tree = "0.6.1"
+sparse-merkle-tree = { git = "https://github.com/Alive24/sparse-merkle-tree", rev = "ce19c90" }
 lazy_static = "1.3.0"
 
 [features]
